@@ -10,7 +10,14 @@ namespace HelloGit
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("shees");
+            if(args[0] == "-help")
+            {
+                Console.WriteLine("This is the first real github project I've written with C# bruv");
+            }
+            else
+            {
+                Console.WriteLine("Hello Vietnam");
+            }
         }
     }
 }
